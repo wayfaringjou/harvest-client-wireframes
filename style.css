@@ -1,0 +1,70 @@
+h2 {
+  background-color: #afafaf;
+}
+
+main > * + * {
+  margin-top: 1rem;
+}
+
+.action-collection {
+  background-color: #CFCFCF;
+  padding: 1rem;
+}
+
+.collection-prompts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--s400);
+}
+
+.collection-prompts > header {
+  grid-column: auto / span 4;
+}
+
+.collection-prompts > .prompt {
+  grid-column: auto / span 2;
+  background-color: #fff;
+  margin: 1rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul > :nth-child(even) {
+  background-color: #9f9f9f;
+}
+
+ul > * + * {
+  margin-top: 1rem;
+}
+
+small {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 4px;
+  margin: 4px;
+}
+
+.plant-icon {
+  border-radius: 50%;
+  padding: 8px 12px;
+  background-color: #8f8f8f;
+}
+
+nav > ul {
+  flex-direction: row;
+}
+
+nav > ul > * {
+  margin: 0 0 0 1rem;
+  background-color: #fff;
+}
+
+textarea {
+  width: 100%;
+}
